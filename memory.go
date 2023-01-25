@@ -25,7 +25,7 @@ import (
 )
 
 // DefaultEvery sets a timer for how often to recycle the expired cache items in memory (in seconds)
-//var DefaultEvery = 60 // 1 minute
+// var DefaultEvery = 60 // 1 minute
 
 // MemoryItem stores memory cache item.
 type MemoryItem struct {

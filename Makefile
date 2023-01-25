@@ -41,6 +41,7 @@ lint:
 .PHONY: fmt
 fmt:
 	@goimports -l -w .
+	@gofumpt -w .
 
 .PHONY: tidy
 tidy:

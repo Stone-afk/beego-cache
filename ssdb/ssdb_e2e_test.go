@@ -38,7 +38,6 @@ type Suite struct {
 }
 
 func (s *Suite) SetupSuite() {
-
 	t := s.T()
 	maxTryCnt := 10
 

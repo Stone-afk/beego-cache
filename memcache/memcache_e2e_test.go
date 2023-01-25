@@ -37,7 +37,6 @@ type Suite struct {
 }
 
 func (s *Suite) SetupSuite() {
-
 	t := s.T()
 	maxTryCnt := 10
 	pool := memcache.New(s.dsn)
@@ -56,7 +55,6 @@ func (s *Suite) SetupSuite() {
 	bm := NewMemCache(pool)
 
 	s.cache = bm
-
 }
 
 type MemcacheCompositionTestSuite struct {

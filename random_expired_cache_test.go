@@ -25,7 +25,6 @@ import (
 )
 
 func TestRandomExpireCache(t *testing.T) {
-
 	bm := NewMemoryCache(20)
 	cache := NewRandomExpireCache(bm)
 	// should not be nil
